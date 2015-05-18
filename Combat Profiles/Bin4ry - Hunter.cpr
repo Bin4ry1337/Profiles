@@ -1,4 +1,4 @@
-gcd1500
+gcd:1500
 
 //Buffs ----------------------------------------
 
@@ -30,7 +30,7 @@ incombat
 
 //Food
 use:food
-selfhp<70
+selfhp<60
 !incombat
 breakoncombat
 channelingtime:12000
