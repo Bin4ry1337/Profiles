@@ -1,0 +1,93 @@
+gcd1500
+
+//Buffs ----------------------------------------
+
+//Aspect of the Monkey
+castspell:13163
+selfbuff!13163
+level>3
+
+//Aspect of the Hawk
+castspell:13165;14318;14319;14320;14321;14322
+selfbuff!13165;14318;14319;14320;14321;14322
+level>9
+
+//Potions --------------------------------------
+
+//Health Potion
+use:health potion
+selfhp<30
+incombat
+
+//Mana Potion
+use:mana potion
+mana<30
+incombat
+
+
+
+//Food and Drinks ------------------------------
+
+//Food
+use:food
+selfhp<70
+!incombat
+breakoncombat
+channelingtime:12000
+nostand
+
+//Drink
+use:drink
+mana<60
+!incombat
+breakoncombat
+channelingtime:12000
+nostand
+
+
+
+//Scrolls --------------------------------------
+
+//Stamina Scroll
+use:stamina scroll
+!incombat
+
+//Agility Scroll
+use:Agility Scroll
+!incombat
+
+
+
+//Attack Spells --------------------------------
+
+//Hunters Mark
+castspell:1130;14323;14324;14325
+targetbuff!1130;14323;14324;14325
+distance<25
+level>5
+
+//Autoshoot
+castspell:75
+distance>5
+distance<20
+!autoattacking
+afterloot
+
+//Serpent Sting
+castspell:1978;13549;13550;13551;13552;13553;13554;13555;25295
+distance>5
+targetbuff!1978;13549;13550;13551;13552;13553;13554;13555;25295
+distance<35
+level>3
+
+//Concussive Shot
+castspell:5116
+distance>5
+targetbuff!5116
+distance<30
+level>7
+
+//Raptor Strike
+castspell:2973
+cooldown:6000	
+distance<5

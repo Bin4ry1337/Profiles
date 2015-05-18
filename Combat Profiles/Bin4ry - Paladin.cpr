@@ -1,0 +1,115 @@
+gcd:1500
+
+//Buffs ----------------------------------------
+
+//Blessing of Might
+castspell:19740;19834;19835;19836;19837;19838;25291
+selfbuff!19740;19834;19835;19836;19837;19838;25291
+mana>50
+level>3
+
+//Blessing of Wisdom
+castspell:19742
+selfbuff!19742
+mana<20
+level>13
+
+//Seal of Righteousness
+castspell:21084;20287;20288;20289;20290;20291;20292;20293
+selfbuff!21084;20287;20288;20289;20290;20291;20292;20293
+triggers:1
+
+
+
+//Potions --------------------------------------
+
+//Health Potion
+use:health potion
+selfhp<40
+incombat
+
+//Mana Potion
+use:mana potion
+mana<40
+incombat
+
+
+
+//Food and Drinks ------------------------------
+
+//Food
+use:food
+selfhp<40
+!incombat
+breakoncombat
+channelingtime:12000
+nostand
+
+//Drink
+use:drink
+mana<40
+!incombat
+breakoncombat
+channelingtime:12000
+nostand
+
+
+
+//Scrolls --------------------------------------
+
+//Stamina Scroll
+use:stamina scroll
+!incombat
+
+//Strength Scroll
+use:strength Scroll
+!incombat
+
+//Agility Scroll
+use:agility scroll
+!incombat
+
+//Intellect Scroll
+use:intellect scroll
+!incombat
+
+//Spirit Scroll
+use:spirit scroll
+!incombat
+
+
+
+//Attack Spells --------------------------------
+
+//Holy Light
+castspell:635;639;647;1026;1042;3472;10328;10329;25292
+selfhp<40
+mana>10
+
+//Hammer of Justice
+castspell:853;5588;5589;10308
+distance<5
+cooldown:60000
+level>7
+enemycasting
+
+//Hammer of Justice - On Low Health
+castspell:853;5588;5589;10308
+distance<5
+cooldown:60000
+selfhp<20
+level>7
+triggers:2
+
+//Holy Light - After Stun
+castspell:635;639;647;1026;1042;3472;10328;10329;25292
+mana>10
+triggeredby:2
+
+//judgement
+castspell:20271
+cooldown:10000
+distance<10
+mana>10
+level>3
+triggeredby:1
