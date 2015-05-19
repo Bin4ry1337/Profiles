@@ -105,7 +105,7 @@ level>9
 //Hammer of Justice - On Low Health
 castspell:853;5588;5589;10308
 distance<5
-cooldown:60000
+cooldown:60000;1
 selfhp<20
 level>7
 triggers:2
@@ -139,7 +139,7 @@ mana>10
 //Hammer of Justice
 castspell:853;5588;5589;10308
 distance<5
-cooldown:60000
+cooldown:60000;1
 level>7
 enemycasting
 incombat
