@@ -158,5 +158,4 @@ nogcd
 castspell:6603
 distance<5
 !autoattacking
-mana<5
 nogcd
