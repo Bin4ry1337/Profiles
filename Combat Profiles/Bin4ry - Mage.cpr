@@ -61,10 +61,6 @@ nostand
 use:stamina scroll
 !incombat
 
-//Intellect Scroll
-use:intellect scroll
-!incombat
-
 //Spirit Scroll
 use:spirit scroll
 !incombat
