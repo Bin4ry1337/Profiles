@@ -99,7 +99,7 @@ use:spirit scroll
 
 //Lay on Hands
 castspell:633;2800;10310
-selfhp<5
+selfhp<10
 level>9
 
 //Hammer of Justice - On Low Health
