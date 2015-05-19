@@ -41,12 +41,12 @@ chance:20
 
 //Health Potion
 use:health potion
-selfhp<50
+selfhp<20
 incombat
 
 //Mana Potion
 use:mana potion
-mana<50
+mana<20
 incombat
 
 

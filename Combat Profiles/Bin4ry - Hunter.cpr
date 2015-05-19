@@ -17,12 +17,12 @@ level>9
 
 //Health Potion
 use:health potion
-selfhp<30
+selfhp<20
 incombat
 
 //Mana Potion
 use:mana potion
-mana<30
+mana<20
 incombat
 
 
