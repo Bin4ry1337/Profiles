@@ -1,0 +1,92 @@
+gcd:1500
+
+//Buffs ----------------------------------------
+
+//Arcane Intellect
+castspell:1459;1460;1461;10156;10157
+selfbuff!1459;1460;1461;10156;10157
+!incombat
+
+//Frost Armor
+castspell:168;7300;7301
+selfbuff!168;7300;7301;7302;7320;10219;10220
+level<30
+!incombat
+
+//Ice Armor
+castspell:7302;7320;10219;10220
+selfbuff!7302;7320;10219;10220
+level>29
+!incombat
+
+
+
+//Potions --------------------------------------
+
+//Health Potion
+use:health potion
+selfhp<50
+incombat
+
+//Mana Potion
+use:mana potion
+mana<50
+incombat
+
+
+
+//Food and Drinks ------------------------------
+
+//Food
+use:food
+selfhp<60
+!incombat
+breakoncombat
+channelingtime:12000
+nostand
+
+//Drink
+use:drink
+mana<60
+!incombat
+breakoncombat
+channelingtime:12000
+nostand
+
+
+
+//Scrolls --------------------------------------
+
+//Stamina Scroll
+use:stamina scroll
+!incombat
+
+//Intellect Scroll
+use:intellect scroll
+!incombat
+
+//Spirit Scroll
+use:spirit scroll
+!incombat
+
+
+
+//Attack Spells --------------------------------
+
+//Fireball
+castspell:133
+channelingtime:1500
+distance:30
+level<4
+
+//Frostbolt
+castspell:116
+channelingtime:1500
+distance:25
+level>3
+
+//Fire Blast
+castspell:2136
+targethp<40
+cooldown:10000
+incombat
