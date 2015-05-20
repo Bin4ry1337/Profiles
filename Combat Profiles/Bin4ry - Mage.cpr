@@ -86,3 +86,18 @@ castspell:2136
 targethp<40
 cooldown:10000
 incombat
+
+//Wand Attack
+castspell:5019
+distance<30
+mana<10
+!wandcasting
+!autoattacking
+
+//Auto Attack
+castspell:6603
+distance<5
+mana<10
+!wandcasting
+!autoattacking
+nogcd
