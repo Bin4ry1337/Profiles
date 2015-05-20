@@ -121,7 +121,7 @@ level<20
 triggeredby:2
 incombat
 
-//Flash of Light -After Stun
+//Flash of Light - After Stun
 castspell;19750;19939;19940;19941;19942;19943
 mana>5
 level>19
