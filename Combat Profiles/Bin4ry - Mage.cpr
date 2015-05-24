@@ -66,6 +66,14 @@ use:mana potion
 mana<20
 incombat
 
+//Mana Gem
+use:mana gem
+targethp>25
+mana<20
+cooldown:120000
+level>27
+incombat
+
 
 
 //##############################################
@@ -252,14 +260,6 @@ mana<60
 breakoncombat
 channelingtime:16000
 nostand
-
-//Mana Gem
-use:mana gem
-targethp>25
-mana<20
-cooldown:120000
-level>27
-incombat
 
 
 
