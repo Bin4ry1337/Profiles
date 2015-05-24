@@ -1,6 +1,31 @@
 gcd:1500
 
-//Buffs ----------------------------------------
+//##############################################
+//Buffs & Shields
+//##############################################
+
+//Ice Barrier - In Combat
+castspell:11426;13031;13032;13033
+selfbuff!11426;13031;13032;13033
+selfhp<80
+cooldown:30000;1
+level>40
+incombat
+
+//Ice Barrier - Not in Combat
+castspell:11426;13031;13032;13033
+selfbuff!11426;13031;13032;13033
+cooldown:30000;1
+level>40
+!incombat
+
+//Mana Shield
+castspell:1463;8494;8495;10191;10193
+selfbuff!1463;8494;8495;10191;10193;11426;13031;13032;13033
+selfhp<25
+mana>30
+level>20
+incombat
 
 //Arcane Intellect
 castspell:1459;1460;1461;10156;10157
@@ -19,9 +44,17 @@ selfbuff!7302;7320;10219;10220
 level>29
 !incombat
 
+//Dampen Magic
+castspell:604;8450;8451;10173;10174
+selfbuff!604;8450;8451;10173;10174
+level>12
+!incombat
 
 
-//Potions --------------------------------------
+
+//##############################################
+//Potions
+//##############################################
 
 //Health Potion
 use:health potion
@@ -35,14 +68,146 @@ incombat
 
 
 
-//Food and Drinks ------------------------------
+//##############################################
+//Conjurables
+//##############################################
+
+//Conjure Food Rank 1
+castspell:587
+!incombat
+breakoncombat
+haveitem:5349<3
+cooldown:3500
+level>5
+level<12
+
+//Conjure Food Rank 2
+castspell:597
+!incombat
+breakoncombat
+haveitem:1113<3
+cooldown:3500
+level>11
+level<22
+
+//Conjure Food Rank 3
+castspell:990
+!incombat
+breakoncombat
+haveitem:1114<3
+cooldown:3500
+level>21
+level<32
+
+//Conjure Food Rank 4
+castspell:6129
+!incombat
+breakoncombat
+haveitem:1487<3
+cooldown:3500
+level>31
+level<42
+
+//Conjure Food Rank 5
+castspell:10144
+!incombat
+breakoncombat
+haveitem:8075<3
+cooldown:3500
+level>41
+level<52
+
+//Conjure Food Rank 6
+castspell:10145
+!incombat
+breakoncombat
+haveitem:8076<3
+cooldown:3500
+level>51
+level<60
+
+//Conjure Food Rank 7
+castspell:28612
+!incombat
+breakoncombat
+haveitem:22895<3
+cooldown:3500
+level>59
+
+//Conjure Water Rank 1
+castspell:5504
+!incombat
+breakoncombat
+haveitem:5350<3
+cooldown:3500
+level>4
+level<10
+
+//Conjure Water Rank 2
+castspell:5505
+!incombat
+breakoncombat
+haveitem:2288<3
+cooldown:3500
+level>9
+level<20
+
+//Conjure Water Rank 3
+castspell:5506
+!incombat
+breakoncombat
+haveitem:2136<3
+cooldown:3500
+level>19
+level<30
+
+//Conjure Water Rank 4
+castspell:6127
+!incombat
+breakoncombat
+haveitem:3772<3
+cooldown:3500
+level>29
+level<40
+
+//Conjure Water Rank 5
+castspell:10138
+!incombat
+breakoncombat
+haveitem:8077<3
+cooldown:3500
+level>39
+level<50
+
+//Conjure Water Rank 6
+castspell:10139
+!incombat
+breakoncombat
+haveitem:8078<3
+cooldown:3500
+level>49
+level<60
+
+//Conjure Water Rank 7
+castspell:10140
+!incombat
+breakoncombat
+haveitem:8079<3
+cooldown:3500
+level>59
+
+
+
+//##############################################
+//Food and Drinks
+//##############################################
 
 //Food
 use:food
 selfhp<60
 !incombat
 breakoncombat
-channelingtime:12000
+channelingtime:16000
 nostand
 
 //Drink
@@ -50,12 +215,13 @@ use:drink
 mana<60
 !incombat
 breakoncombat
-channelingtime:12000
+channelingtime:16000
 nostand
 
 
-
-//Scrolls --------------------------------------
+//##############################################
+//Scrolls
+//##############################################
 
 //Stamina Scroll
 use:stamina scroll
@@ -66,25 +232,87 @@ use:spirit scroll
 !incombat
 
 
+//##############################################
+//Attack Spells
+//##############################################
 
-//Attack Spells --------------------------------
+//Scorch
+castspell:2948;8444;8445;8446;10205;10206;10207
+targethp<15
+distance<30
+mana<25
+level>21
 
 //Fireball
-castspell:133
-channelingtime:1500
-distance:30
+castspell:133;143;145;3140;8400;8401;8402;10148;10149;10150;10151;25306
+distance<35
+mana>25
 level<4
 
+//Fireball
+castspell:133;143;145;3140;8400;8401;8402;10148;10149;10150;10151;25306
+distance<35
+mana>25
+level>3
+castonce
+
 //Frostbolt
-castspell:116
-channelingtime:1500
-distance:25
+castspell:116;205;837;7322;8406;8407;8407;8408;10179;10180;1081
+distance<30
+mana>25
 level>3
 
 //Fire Blast
 castspell:2136
-targethp<40
+targethp<30
+distance<12
 cooldown:10000
+mana>20
+level>5
+incombat
+
+//Frost Nova - Single Target
+castspell:122;865;6131;10231;10230;6132;1225;1194
+mana>15
+selfhp<80
+targethp>30
+distance<7
+backpedal:1400
+cooldown:25000;2
+combatcount<2
+level>10
+incombat
+
+//Frost Nova - Multi Target
+castspell:122;865;6131;10231;10230;6132;1225;1194
+mana>20
+selfhp<90
+targethp>30
+distance<7
+backpedal:1500
+cooldown:25000;2
+combatcount>1
+level>10
+incombat
+
+//Frost Nova - On Mana Low
+castspell:122;865;6131;10231;10230;6132;1225;1194
+mana<25
+mana>10
+selfhp>50
+targethp>30
+distance<7
+backpedal:1300
+cooldown:25000;2
+level>10
+triggers:1
+incombat
+
+//Evocation
+castspell:12051
+channelingtime:8000
+cooldown:480000
+triggeredby:1
 incombat
 
 //Wand Attack
