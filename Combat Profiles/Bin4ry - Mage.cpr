@@ -196,6 +196,41 @@ haveitem:8079<3
 cooldown:3500
 level>59
 
+//Conjure Mana Gem Rank 1
+castspell:759
+mana>40
+cooldown:4000
+haveitem:5514<1
+level>27
+level<38
+!incombat
+
+//Conjure Mana Gem Rank 2
+castspell:3552
+mana>40
+cooldown:4000
+haveitem:5513<1
+level>37
+level<48
+!incombat
+
+//Conjure Mana Gem Rank 3
+castspell:10053
+mana>40
+cooldown:4000
+haveitem:8007<1
+level>47
+level<58
+!incombat
+
+//Conjure Mana Gem Rank 4
+castspell:10054
+mana>40
+cooldown:4000
+haveitem:8008<1
+level>57
+!incombat
+
 
 
 //##############################################
@@ -218,6 +253,15 @@ breakoncombat
 channelingtime:16000
 nostand
 
+//Mana Gem
+use:mana gem
+targethp>25
+mana<20
+cooldown:120000
+level>27
+incombat
+
+
 
 //##############################################
 //Scrolls
@@ -230,6 +274,7 @@ use:stamina scroll
 //Spirit Scroll
 use:spirit scroll
 !incombat
+
 
 
 //##############################################
