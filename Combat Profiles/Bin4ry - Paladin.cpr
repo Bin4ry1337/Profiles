@@ -1,6 +1,32 @@
 gcd:1500
 
-//Buffs ----------------------------------------
+//##############################################
+//Buffs & Shields
+//##############################################
+
+//Divine Shield
+castspell:642;1020
+selfbuff!25771
+selfhp<8
+cooldown:300000
+level>33
+incombat
+
+//Divine Protection
+castspell:498;5573
+selfbuff!25771
+selfhp<8
+cooldown:300000
+level>5
+incombat
+
+//Blessing of Protection
+castspell:1022;5599;10278
+selfbuff!25771
+selfhp<8
+cooldown:300000
+level>9
+incombat
 
 //Devotion Aura
 castspell:465;10290;643;10291;1032;10292;10293
@@ -36,8 +62,9 @@ level>5
 chance:20
 incombat
 
-
-//Potions --------------------------------------
+//##############################################
+//Potions
+//##############################################
 
 //Health Potion
 use:health potion
@@ -50,8 +77,9 @@ mana<20
 incombat
 
 
-
-//Food and Drinks ------------------------------
+//##############################################
+//Food and Drinks
+//##############################################
 
 //Food
 use:food
@@ -70,8 +98,9 @@ channelingtime:12000
 nostand
 
 
-
-//Scrolls --------------------------------------
+//##############################################
+//Scrolls
+//##############################################
 
 //Stamina Scroll
 use:stamina scroll
@@ -94,8 +123,9 @@ use:spirit scroll
 !incombat
 
 
-
-//Attack Spells --------------------------------
+//##############################################
+//Attack
+//##############################################
 
 //Lay on Hands
 castspell:633;2800;10310
