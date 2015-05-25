@@ -98,6 +98,7 @@ castspell:589;594;970;992;2767;10892;10893;10894
 targetbuff!589;594;970;992;2767;10892;10893;10894
 mana>10
 distance<30
+level>3
 incombat
 
 //Lesser Heal
