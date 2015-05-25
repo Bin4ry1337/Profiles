@@ -39,6 +39,13 @@ mana>30
 level>11
 !incombat
 
+//Divine Spirit
+castspell:14752;14818;14819;27841
+selfbuff!14752;14818;14819;27841
+mana>30
+level>29
+!incombat
+
 
 
 //##############################################
@@ -97,10 +104,11 @@ use:spirit scroll
 //Attack
 //##############################################
 
-//Smite
-castspell:585;591;598;984;1004;6060;10933;10934
+//Holy Fire
+castspell:14914;15262;15263;15264;15265;15266;15267;15261
 mana>10
 distance<30
+level>19
 
 //Shadow Word: Pain
 castspell:589;594;970;992;2767;10892;10893;10894
@@ -108,7 +116,11 @@ targetbuff!589;594;970;992;2767;10892;10893;10894
 mana>10
 distance<30
 level>3
-incombat
+
+//Smite
+castspell:585;591;598;984;1004;6060;10933;10934
+mana>10
+distance<30
 
 //Lesser Heal
 castspell:2050;2052;2053
@@ -116,11 +128,25 @@ selfhp<40
 mana>10
 level<17
 
+//Flash Heal
+castspell:2061;9472;9473;9474;10915;10916;10917
+selfhp<20
+mana>10
+level>19
+incombat
+
 //Heal
 castspell:2054;2055;6063;6064
 selfhp<40
 mana>10
 level>15
+level<40
+
+//Greater Heal
+castspell:2060;10963;10964;10965;25314
+selfbuff<40
+mana>10
+level>39
 
 //Wand Attack
 castspell:5019
