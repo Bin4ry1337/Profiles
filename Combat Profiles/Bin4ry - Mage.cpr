@@ -27,6 +27,13 @@ mana>30
 level>20
 incombat
 
+//Ice Block - Last Resort
+castspell:11958
+selfbuff!1463;8494;8495;10191;10193;11426;13031;13032;13033
+selfhp<10
+mana<10
+level>29
+
 //Arcane Intellect
 castspell:1459;1460;1461;10156;10157
 selfbuff!1459;1460;1461;10156;10157
