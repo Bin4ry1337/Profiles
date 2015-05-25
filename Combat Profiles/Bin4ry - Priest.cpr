@@ -93,6 +93,13 @@ castspell:585;591;598;984;1004;6060;10933;10934
 mana>10
 distance<30
 
+//Shadow Word: Pain
+castspell:589;594;970;992;2767;10892;10893;10894
+targetbuff!589;594;970;992;2767;10892;10893;10894
+mana>10
+distance<30
+incombat
+
 //Lesser Heal
 castspell:2050;2052;2053
 selfhp<40
