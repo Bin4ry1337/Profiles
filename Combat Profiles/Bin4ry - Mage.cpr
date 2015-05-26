@@ -75,8 +75,8 @@ incombat
 
 //Mana Gem
 use:mana gem
-targethp>25
-mana<20
+targethp>15
+mana<25
 cooldown:120000
 level>27
 incombat
