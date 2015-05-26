@@ -22,7 +22,7 @@ incombat
 castspell:17;592;600;3747;6065;6066;10898;10899;10900;10901
 selfbuff!17;592;600;3747;6065;6066;10898;10899;10900;10901;6788
 level>5
-range<30
+distance<30
 !incombat
 
 //Power Word: Fortitude
