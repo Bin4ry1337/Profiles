@@ -252,6 +252,25 @@ level>57
 //Food and Drinks
 //##############################################
 
+//Eat and Drink
+use:food
+selfhp<60
+mana<60
+breakoncombat
+cooldown:1500
+triggers:5
+!incombat
+nogcd
+
+//Eat and Drink
+use:drink
+channelingtime:16000
+breakoncombat
+triggeredby:5
+nostand
+!incombat
+nogcd
+
 //Food
 use:food
 selfhp<60
