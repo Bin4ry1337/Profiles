@@ -1,0 +1,153 @@
+gcd:1500
+
+
+//##############################################
+//Buffs & Shields
+//##############################################
+
+//Vanish
+castspell:1856;1857
+selfhp<10
+targethp>20
+haveitem:5140>0
+level>21
+incombat
+
+//Evasion
+castspell:5277
+selfhp<35
+targethp>30
+cooldown:210000
+level>7
+nogcd
+
+//Slice and Dice
+castspell:5171;6774
+combopoints>1
+energy>25
+castonce
+
+//Stealth
+castspell:1784;1785;1786;1787
+selfbuff!1784;1785;1786;1787
+cooldown:10000
+distance<40
+!incombat
+
+//Cheap Shot
+castspell:1833
+selfbuff=1784;1785;1786;1787
+targetbyff!1833
+distance<5
+level>25
+
+//Sinister Strike
+castspell:1752;1757;1758;1759;1760;8621;11293;11294
+selfbuff=1784;1785;1786;1787
+energy>45
+combopoints<5
+distance<5
+level<26
+
+
+
+//##############################################
+//Potions
+//##############################################
+
+//Health Potion
+use:health potion
+selfhp<20
+incombat
+
+//Mana Potion
+use:mana potion
+mana<20
+incombat
+
+
+
+//##############################################
+//Food and Drinks
+//##############################################
+
+//Food
+use:food
+selfhp<60
+breakoncombat
+channelingtime:16000
+nostand
+!incombat
+
+//Rest
+selfhp<60
+channelingtime:15000
+breakoncombat
+afterloot
+!incombat
+
+
+
+//##############################################
+//Scrolls
+//##############################################
+
+//Stamina Scroll
+use:stamina scroll
+!incombat
+
+//Agility Scroll
+use:agility scroll
+!incombat
+
+
+
+//##############################################
+//Attack
+//##############################################
+
+//Kick
+castspell:1766;1767;1768;1769
+energy>25
+distance<5
+enemycasting
+level>11
+incombat
+
+//Gouge
+castspell:1776;1777;8629;11285;11286
+energy>45
+combopoints<5
+cooldown:10000
+distance<5
+targethp>35
+selfhp<40
+level>5
+incombat
+
+//Sinister Strike
+castspell:1752;1757;1758;1759;1760;8621;11293;11294
+energy>45
+combopoints<5
+distance<5
+
+//Rupture
+castspell:1943;8639;8640;11273;11274;11275
+energy>25
+combopoints>3
+level>19
+incombat
+castonce
+
+//Eviscerate
+castspell:2098;6760;6761;6762;8623;8624;11299;11300
+energy>35
+combopoints>3
+distance<5
+incombat
+
+//Auto Attack
+castspell:6603
+distance<5
+!autoattacking
+nogcd
