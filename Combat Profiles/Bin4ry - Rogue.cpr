@@ -73,12 +73,6 @@ use:health potion
 selfhp<20
 incombat
 
-//Mana Potion
-use:mana potion
-mana<20
-incombat
-
-
 
 //##############################################
 //Food and Drinks
