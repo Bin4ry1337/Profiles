@@ -44,6 +44,7 @@ nostand
 !incombat
 
 //Rest
+cast:25
 selfhp<60
 channelingtime:15000
 breakoncombat
