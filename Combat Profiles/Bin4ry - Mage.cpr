@@ -1,3 +1,7 @@
+//Class:   Mage
+//Spec:    Frost
+//Talents: http://db.vanillagaming.org/?talent#obZVxZVAGc0ctAo
+
 gcd:1500
 
 //##############################################
@@ -377,6 +381,13 @@ backpedal:1300
 cooldown:25000;2
 level>10
 triggers:1
+incombat
+
+//Cone of Cold
+castspell:120;8492;10159;10160;10161
+mana>30
+distance<5
+level>25
 incombat
 
 //Evocation
