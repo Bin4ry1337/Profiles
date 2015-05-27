@@ -13,7 +13,6 @@ castspell:71
 selfbuff!71
 level>9
 
-
 //Battle Shout
 castspell:6673;5242;6192;11549;11550;11551;25289
 selfbuff!6673;5242;6192;11549;11550;11551;25289
@@ -90,6 +89,13 @@ distance<5
 rage>14
 incombat
 nogcd
+
+//Revenge
+castspell:6572;6574;7379;11600;11601;25288
+distance<5
+rage>4
+level>13
+incombat
 
 //Rend
 castspell:772;6546;6547;6548;11572;11573;11574
