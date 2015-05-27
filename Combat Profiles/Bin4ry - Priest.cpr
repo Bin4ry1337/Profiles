@@ -179,7 +179,7 @@ level<40
 
 //Greater Heal
 castspell:2060;10963;10964;10965;25314
-selfbuff<40
+selfhp<40
 mana>10
 level>39
 
