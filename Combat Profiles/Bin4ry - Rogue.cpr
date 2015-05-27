@@ -13,7 +13,16 @@ castspell:1856;1857
 selfhp<10
 targethp>20
 haveitem:5140>0
+backpedal:2000
 level>21
+incombat
+
+//Adrenaline Rush
+castspell:13750
+targethp>70
+energy<15
+cooldown:300000
+level>39
 incombat
 
 //Evasion
@@ -23,12 +32,14 @@ targethp>30
 cooldown:210000
 level>7
 nogcd
+incombat
 
 //Slice and Dice
 castspell:5171;6774
 combopoints>1
 energy>25
 castonce
+incombat
 
 //Stealth
 castspell:1784;1785;1786;1787
@@ -50,7 +61,6 @@ selfbuff=1784;1785;1786;1787
 energy>45
 combopoints<5
 distance<5
-level<26
 
 
 
