@@ -8,10 +8,24 @@ gcd:1500
 //Buffs & Shields
 //##############################################
 
+//Defensive Stance
+castspell:71
+selfbuff!71
+level>9
+
+
 //Battle Shout
 castspell:6673;5242;6192;11549;11550;11551;25289
 selfbuff!6673;5242;6192;11549;11550;11551;25289
 rage>9
+
+//Bloodrage
+castspell:2687
+cooldown:60000
+selfhp>70
+rage<10
+level>9
+incombat
 
 
 
@@ -22,11 +36,6 @@ rage>9
 //Health Potion
 use:health potion
 selfhp<20
-incombat
-
-//Mana Potion
-use:mana potion
-mana<20
 incombat
 
 
@@ -89,6 +98,20 @@ targethp>25
 distance<5
 rage>9
 level>3
+incombat
+
+//Thunder Clap
+castspell:6343;8198;8204;8205;11580;11581;
+targetbuff!6343;8198;8204;8205;11580;11581;
+rage>19
+level>5
+incombat
+
+//Shield Bash
+castspell:72;1671;1672
+enemycasting
+rage>9
+level>11
 incombat
 
 //Auto Attack
