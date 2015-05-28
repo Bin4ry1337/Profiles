@@ -26,6 +26,14 @@ rage<10
 level>9
 incombat
 
+//Shield Wall
+castspell:871
+cooldown:300000
+selfhp<30
+targethp>30
+level>27
+incombat
+
 
 
 //##############################################
@@ -83,12 +91,29 @@ use:strength scroll
 //Attack
 //##############################################
 
+//Shield Slam
+castspell:23922;23923;23924;23925
+cooldown:6000
+distance<5
+rage>19
+level>39
+incombat
+
 //Heroic Strike
 castspell:78;284;285;1608;11564;11565;11566;11567;25286
 distance<5
 rage>14
 incombat
 nogcd
+
+//Shield Bash
+castspell:72;1671;1672
+cooldown:12000
+enemycasting
+distance<5
+rage>9
+level>11
+incombat
 
 //Revenge
 castspell:6572;6574;7379;11600;11601;25288
@@ -109,15 +134,16 @@ incombat
 //Thunder Clap
 castspell:6343;8198;8204;8205;11580;11581;
 targetbuff!6343;8198;8204;8205;11580;11581;
+distance<5
 rage>19
 level>5
 incombat
 
-//Shield Bash
-castspell:72;1671;1672
-enemycasting
+//Shield Block
+castspell:2565
+cooldown:5000
 rage>9
-level>11
+level>15
 incombat
 
 //Auto Attack
