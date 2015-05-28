@@ -51,7 +51,7 @@ distance<40
 //Cheap Shot
 castspell:1833
 selfbuff=1784;1785;1786;1787
-targetbyff!1833
+targetbuff!1833
 distance<5
 level>25
 
