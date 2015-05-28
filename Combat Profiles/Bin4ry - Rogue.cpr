@@ -141,11 +141,11 @@ distance<5
 
 //Rupture
 castspell:1943;8639;8640;11273;11274;11275
+targethp>70
 energy>25
 combopoints>3
 level>19
 incombat
-castonce
 
 //Eviscerate
 castspell:2098;6760;6761;6762;8623;8624;11299;11300
