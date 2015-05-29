@@ -131,14 +131,6 @@ rage>9
 level>3
 incombat
 
-//Thunder Clap
-castspell:6343;8198;8204;8205;11580;11581;
-targetbuff!6343;8198;8204;8205;11580;11581;
-distance<5
-rage>19
-level>5
-incombat
-
 //Shield Block
 castspell:2565
 cooldown:5000
