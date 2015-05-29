@@ -28,6 +28,7 @@ incombat
 
 //Shield Wall
 castspell:871
+selfbuff=71
 cooldown:300000
 selfhp<30
 targethp>30
@@ -93,6 +94,7 @@ use:strength scroll
 
 //Shield Slam
 castspell:23922;23923;23924;23925
+selfbuff=71
 cooldown:6000
 distance<5
 rage>19
@@ -108,6 +110,7 @@ nogcd
 
 //Shield Bash
 castspell:72;1671;1672
+selfbuff=71
 cooldown:12000
 enemycasting
 distance<5
@@ -117,6 +120,7 @@ incombat
 
 //Revenge
 castspell:6572;6574;7379;11600;11601;25288
+selfbuff=71
 distance<5
 rage>4
 level>13
@@ -133,6 +137,7 @@ incombat
 
 //Shield Block
 castspell:2565
+selfbuff=71
 cooldown:5000
 rage>9
 level>15
