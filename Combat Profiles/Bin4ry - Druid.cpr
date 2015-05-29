@@ -1,3 +1,140 @@
 //Class:   Druid
 //Spec:    Feral
 //Talents: http://db.vanillagaming.org/?talent#0ZV0gscrbtEE
+
+gcd:1500
+
+//##############################################
+//Buffs & Shields
+//##############################################
+
+//Mark of the Wild
+castspell:1126;5232;6756;5234;8907;9884;9885
+selfbuff!1126;5232;6756;5234;8907;9884;9885
+!incombat
+
+//Thorns
+castspell:467;782;1075;8914;9756;9910
+selfbuff!467;782;1075;8914;9756;9910
+!incombat
+
+//Rejuvenation
+castspell:774;1058;1430;2090;2091;3627;8910;9839;9840;9841;25299
+selfbuff!774;1058;1430;2090;2091;3627;8910;9839;9840;9841;25299
+distance<40
+mana>40
+level>3
+!incombat
+
+
+
+//##############################################
+//Potions
+//##############################################
+
+//Health Potion
+use:health potion
+selfhp<20
+incombat
+
+//Mana Potion
+use:mana potion
+mana<20
+incombat
+
+
+
+//##############################################
+//Food and Drinks
+//##############################################
+
+//Eat and Drink
+use:food
+selfhp<60
+mana<60
+breakoncombat
+cooldown:1500
+triggers:5
+!incombat
+nogcd
+
+//Eat and Drink
+use:drink
+channelingtime:16000
+breakoncombat
+triggeredby:5
+nostand
+!incombat
+nogcd
+
+//Food
+use:food
+selfhp<60
+!incombat
+breakoncombat
+channelingtime:12000
+nostand
+
+//Drink
+use:drink
+mana<60
+!incombat
+breakoncombat
+channelingtime:12000
+nostand
+
+//Rest
+cast:25
+selfhp<60
+channelingtime:15000
+breakoncombat
+afterloot
+!incombat
+
+
+
+//##############################################
+//Scrolls
+//##############################################
+
+//Stamina Scroll
+use:stamina scroll
+!incombat
+
+//Agility Scroll
+use:agility scroll
+!incombat
+
+
+
+//##############################################
+//Attack
+//##############################################
+
+//Healing Touch
+castspell:5185;5186;5187;5188;5189;6778;8903;9758;9888;9889;25297
+selfhp<40
+mana>20
+incombat
+
+//Wrath
+castspell:5176;5177;5178;5179;5180;6780;8905;9912
+selfbuff!5487;768;9634
+distance<30
+mana>10
+incombat
+
+//Moonfire
+castspell:8921;8924;8925;8926;8927;8928;8929;9833;9834;9835
+targetbuff!8921;8924;8925;8926;8927;8928;8929;9833;9834;9835
+selfbuff!5487;768;9634
+distance<30
+mana>10
+level>3
+incombat
+
+//Auto Attack
+castspell:6603
+distance<5
+!autoattacking
+nogcd
