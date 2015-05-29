@@ -135,6 +135,16 @@ breakoncombat
 channelingtime:12000
 nostand
 
+//Rest
+cast:25
+selfhp<60
+mana<40
+channelingtime:15000
+breakoncombat
+afterloot
+!incombat
+
+
 
 //##############################################
 //Scrolls
