@@ -22,7 +22,6 @@ rage>9
 castspell:2687
 cooldown:60000
 selfhp>70
-rage<10
 level>9
 incombat
 
@@ -129,7 +128,7 @@ incombat
 //Rend
 castspell:772;6546;6547;6548;11572;11573;11574
 targetbuff!772;6546;6547;6548;11572;11573;11574
-targethp>25
+targethp>30
 distance<5
 rage>9
 level>3
@@ -139,6 +138,7 @@ incombat
 castspell:2565
 selfbuff=71
 cooldown:5000
+selfhp<50
 rage>9
 level>15
 incombat
