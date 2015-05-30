@@ -141,7 +141,7 @@ distance<5
 
 //Rupture
 castspell:1943;8639;8640;11273;11274;11275
-targethp>70
+targethp>60
 energy>25
 combopoints>3
 level>19
