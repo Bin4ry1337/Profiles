@@ -2,7 +2,7 @@
 //Spec:    Feral
 //Talents: http://db.vanillagaming.org/?talent#0ZV0gscrbtEE
 
-gcd:1500
+gcd:1300
 
 //##############################################
 //Buffs & Shields
@@ -18,13 +18,34 @@ castspell:467;782;1075;8914;9756;9910
 selfbuff!467;782;1075;8914;9756;9910
 !incombat
 
+//Innervate
+castspell:29166
+mana<50
+mana>5
+cooldown:360000
+level>39
+!incombat
+
 //Rejuvenation
 castspell:774;1058;1430;2090;2091;3627;8910;9839;9840;9841;25299
 selfbuff!774;1058;1430;2090;2091;3627;8910;9839;9840;9841;25299
 distance<40
-mana>40
+mana>60
 level>3
 !incombat
+
+//Bear Form
+castspell:5487
+selfbuff!5487
+mana>55
+level>9
+level<20
+
+//Cat Form
+castspell:768
+selfbuff!768
+mana>55
+level>19
 
 
 
@@ -115,6 +136,85 @@ use:agility scroll
 castspell:5185;5186;5187;5188;5189;6778;8903;9758;9888;9889;25297
 selfhp<40
 mana>20
+incombat
+
+//Claw
+castspell:1082;3029;5201;9849;9850
+selfbuff=768
+distance<5
+energy>44
+level>19
+incombat
+
+//Rake
+castspell:1822;1823;1824;9904
+targetbuff!1822
+selfbuff=768
+combopoints<4
+energy>39
+level>23
+incombat
+
+//Faerie Fire (Feral)
+castspell:16857
+selfbuff=5487;768
+targetbuff!16857
+distance<30
+level>17
+incombat
+
+//Tiger's Fury
+castspell:5217;6793;9845;9846
+selfbuff=768
+combopoints>3
+distance<5
+energy>29
+level>23
+incombat
+
+//Rip
+castspell:1079;9492;9493;9752;9894;9896
+selfbuff=768
+targethp>60
+combopoints>3
+distance<5
+energy>29
+level>19
+incombat
+
+//Ferocious Bite
+castspell:22568;22827;22828;22829;31018
+selfbuff=768
+targethp<60
+combopoints>3
+distance<5
+energy>34
+level>31
+incombat
+
+//Maul
+castspell:6807;6808;6809;8972;9745;9880;9881
+selfbuff=5487;9634
+distance<5
+rage>14
+level>9
+incombat
+
+//Bash
+castspell:5211;6798;8983
+selfbuff=5487;9634
+targethp<70
+distance<5
+rage>9
+level>13
+incombat
+
+//Swipe
+castspell:779;780;769;9754;9908
+selfbuff=5487;9634
+combatcount>1
+rage>19
+level>15
 incombat
 
 //Wrath
