@@ -261,6 +261,7 @@ use:food
 selfhp<60
 mana<60
 breakoncombat
+breakonfullhp
 cooldown:1500
 triggers:5
 !incombat
@@ -270,6 +271,7 @@ nogcd
 use:drink
 channelingtime:16000
 breakoncombat
+breakonfullmana
 triggeredby:5
 nostand
 !incombat
@@ -280,6 +282,7 @@ use:food
 selfhp<60
 !incombat
 breakoncombat
+breakonfullhp
 channelingtime:16000
 nostand
 
@@ -288,6 +291,7 @@ use:drink
 mana<60
 !incombat
 breakoncombat
+breakonfullmana
 channelingtime:16000
 nostand
 
@@ -393,6 +397,7 @@ incombat
 //Evocation
 castspell:12051
 channelingtime:8000
+breakonfullmana
 cooldown:480000
 triggeredby:1
 incombat
