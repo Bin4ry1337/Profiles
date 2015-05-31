@@ -52,6 +52,13 @@ castspell:982
 petactive
 !incombat
 
+//Mend Pet
+castspell:136;3111;3661;3662;13542;13543;13544
+petactive
+petalive
+pethealth<20
+mana>20
+
 
 
 //##############################################
@@ -168,6 +175,17 @@ mana>10
 distance>5
 distance<35
 level>5
+incombat
+
+//Intimidation
+castspell:19577
+petactive
+petalive
+enemycasting
+mana>10
+distance<100
+cooldown:60000
+level>29
 incombat
 
 //Multi-Shot
