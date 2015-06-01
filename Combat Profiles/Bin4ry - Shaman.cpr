@@ -9,6 +9,22 @@ gcd:1500
 //##############################################
 
 
+//Lightning Shield
+castspell:324;325;905;945;8134;10431;10432
+selfbuff!324;325;905;945;8134;10431;10432
+level>7
+!incombat
+
+//Rockbiter, Flametongue, Frostbrand, Windfury
+castspell:8017;8018;8024;8027;8033;8038;8232;8235;10486;16362
+!mainhandbuffed
+mana>10
+
+//Rockbiter, Flametongue, Frostbrand, Windfury
+castspell:8017;8018;8024;8027;8033;8038;8232;8235;10486;16362
+!offhandbuffed
+mana>10
+
 
 
 //##############################################
@@ -107,6 +123,31 @@ use:spirit scroll
 //##############################################
 //Attack
 //##############################################
+
+//Healing Wave
+castspell:331;332;547;913;939;959;8005;10395;10396;25357
+selfhp<40
+mana>10
+
+//Lightning Bolt
+castspell:403;529;548;915;943;6041;10391;10392;15207;15208
+distance<30
+mana>10
+
+//Earth Shock
+castspell:8042;8044;8045;8046;10412;10413;10414
+distance<20
+cooldown:6000
+mana>10
+level>3
+incombat
+
+//Stormstrike
+castspell:17364
+cooldown:20000
+distance<5
+mana>25
+level>39
 
 //Auto Attack
 castspell:6603
