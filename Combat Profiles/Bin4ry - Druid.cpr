@@ -27,6 +27,34 @@ cooldown:360000
 level>39
 !incombat
 
+//Bear Form -> Normal Form
+castspell:5487
+selfbuff=5487
+selfhp<40
+castonce
+
+//Cat Form -> Normal Form
+castspell:768
+selfbuff=768
+selfhp<40
+cooldown:1500;1
+castonce
+
+//Dire Bear Form -> Normal Form
+castspell:9634
+selfbuff=9634
+selfhp<40
+cooldown:1500;1
+castonce
+
+//Healing Touch
+castspell:5185;5186;5187;5188;5189;6778;8903;9758;9888;9889;25297
+selfbuff!5487;768;9634
+selfhp<40
+mana>20
+cooldown:1500;1
+incombat
+
 //Rejuvenation
 castspell:774;1058;1430;2090;2091;3627;8910;9839;9840;9841;25299
 selfbuff!774;1058;1430;2090;2091;3627;8910;9839;9840;9841;25299;5487;768;9634
@@ -138,14 +166,6 @@ use:agility scroll
 //##############################################
 //Attack
 //##############################################
-
-//Healing Touch
-castspell:5185;5186;5187;5188;5189;6778;8903;9758;9888;9889;25297
-selfbuff!5487;768;9634
-selfhp<40
-mana>20
-cooldown:1500;1
-incombat
 
 //Claw
 castspell:1082;3029;5201;9849;9850
