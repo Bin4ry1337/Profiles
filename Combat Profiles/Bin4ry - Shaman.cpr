@@ -121,8 +121,88 @@ use:spirit scroll
 
 
 //##############################################
+//Totems
+//##############################################
+
+//Grounding Totem
+castspell:8177
+haveitem:5178>0
+enemycasting
+mana>10
+level>29
+incombat
+
+//Stoneclaw Totem
+castspell:5730;6390;6391;6392;10427;10428
+haveitem:5175>0
+combatcount>1
+distance<8
+mana>20
+level>7
+castonce
+incombat
+
+//Fire Nova Totem
+castspell:1535;8498;8499;11314;11315
+haveitem:5176>0
+combatcount>1
+distance<10
+mana>20
+level>11
+castonce
+incombat
+
+//Healing Stream Totem
+castspell:5394;6375;6377;10462;10463
+selfbuff!5672;6371;6372;10461
+selfhp<70
+haveitem:5177>0
+mana>20
+level>19
+
+//Mana Spring Totem
+castspell:5675;10495;10496;10497
+selfbuff!5677;10491;10493;10494;5672;6371;6372;10461
+mana<50
+level>25
+
+//Strength of Earth Totem
+castspell:8075;8160;8161;10442;25361
+selfbuff!8076;8162;8163;10441;25362
+haveitem:5175>0
+mana>20
+level>9
+incombat
+
+//Stoneskin Totem
+castspell:8071;8154;8155;10406;10407;10408
+selfbuff!8072;8156;8157;10403;10404;10405
+haveitem:5175>0
+distance<20
+mana>20
+level>3
+incombat
+
+//Searing Totem
+castspell:3599;6363;6364;6365;10437;10438
+haveitem:5176>0
+distance<20
+mana>20
+level>9
+castonce
+incombat
+
+
+
+//##############################################
 //Attack
 //##############################################
+
+//Lesser Healing Wave
+castspell:8004;8008;8010;10466;10467;10468
+selfhp<20
+level>19
+mana>10
 
 //Healing Wave
 castspell:331;332;547;913;939;959;8005;10395;10396;25357
