@@ -33,6 +33,7 @@ level>39
 castspell:5487
 selfbuff=5487
 selfhp<40
+cooldown:1500;1
 castonce
 
 //Cat Form -> Normal Form
@@ -70,6 +71,7 @@ level>3
 castspell:5487
 selfbuff!5487
 mana>55
+cooldown:1500;1
 level>9
 level<20
 
@@ -77,6 +79,7 @@ level<20
 castspell:768
 selfbuff!768
 mana>55
+cooldown:1500;1
 level>19
 
 
@@ -107,7 +110,7 @@ selfhp<60
 mana<60
 breakoncombat
 breakonfullhp
-cooldown:1500
+cooldown:1500;1
 triggers:5
 !incombat
 nogcd
