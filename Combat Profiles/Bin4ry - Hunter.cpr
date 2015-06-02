@@ -28,6 +28,11 @@ castspell:13165;14318;14319;14320;14321;14322
 selfbuff!13165;14318;14319;14320;14321;14322
 level>9
 
+//Trueshot Aura
+castspell:19506;20905;20906
+selfbuff!19506;20905;20906
+level>39
+
 //Rapid Fire
 castspell:3045
 cooldown:300000
