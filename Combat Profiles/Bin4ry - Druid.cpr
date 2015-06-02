@@ -11,11 +11,13 @@ gcd:1000
 //Mark of the Wild
 castspell:1126;5232;6756;5234;8907;9884;9885
 selfbuff!1126;5232;6756;5234;8907;9884;9885;5487;768;9634
+cooldown:1500;1
 !incombat
 
 //Thorns
 castspell:467;782;1075;8914;9756;9910
 selfbuff!467;782;1075;8914;9756;9910;5487;768;9634
+cooldown:1500;1
 !incombat
 
 //Innervate
