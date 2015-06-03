@@ -9,7 +9,7 @@
 | Druid    | Beta    |                                |
 | Hunter   | Beta    |                                |
 | Shaman   | Beta    |                                |
-| Warlock  | Alpha   | This Profile is in Early Alpha |
+| Warlock  | Beta    | This Profile is in Early Beta  |
 
 
 ###How To Use
