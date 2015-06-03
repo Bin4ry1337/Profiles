@@ -163,13 +163,24 @@ level>19
 //Mana Spring Totem
 castspell:5675;10495;10496;10497
 selfbuff!5677;10491;10493;10494;5672;6371;6372;10461
+haveitem:5177>0
 mana<50
 level>25
+
+//Windfury Totem
+castspell:8512;10613;10614
+selfbuff!8514;10607;10611
+haveitem:5178>0
+distance<20
+mana<25
+level>31
+incombat
 
 //Strength of Earth Totem
 castspell:8075;8160;8161;10442;25361
 selfbuff!8076;8162;8163;10441;25362
 haveitem:5175>0
+distance<20
 mana>20
 level>9
 incombat
@@ -214,12 +225,32 @@ castspell:403;529;548;915;943;6041;10391;10392;15207;15208
 distance<30
 mana>10
 
+//Flame Shock
+castspell:8050;8052;8053;10447;10448;29228
+targetbuff!8050;8052;8053;10447;10448;29228
+distance<20
+cooldown:6000;1
+mana>10
+level>9
+chance:33
+incombat
+
 //Earth Shock
 castspell:8042;8044;8045;8046;10412;10413;10414
 distance<20
-cooldown:6000
+cooldown:6000;1
 mana>10
 level>3
+chance:33
+incombat
+
+//Frost Shock
+castspell:8056;8058;10472;10473
+distance<20
+cooldown:6000;1
+mana>10
+level>19
+chance:33
 incombat
 
 //Stormstrike
