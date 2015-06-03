@@ -2,3 +2,120 @@
 //Spec:    Demonology
 //Talents: http://db.vanillagaming.org/?talent#IV0VAZcxA0xxot
 //Weapons: Staff & Wand
+
+gcd:1500
+
+//##############################################
+//Buffs & Shields
+//##############################################
+
+
+
+
+
+//##############################################
+//Potions
+//##############################################
+
+//Health Potion
+use:health potion
+selfhp<20
+incombat
+
+//Mana Potion
+use:mana potion
+mana<20
+incombat
+
+
+
+//##############################################
+//Food and Drinks
+//##############################################
+
+//Eat and Drink
+use:food
+selfhp<60
+mana<60
+breakoncombat
+breakonfullhp
+cooldown:1500
+triggers:5
+!incombat
+nogcd
+
+//Eat and Drink
+use:drink
+channelingtime:16000
+breakoncombat
+breakonfullmana
+triggeredby:5
+nostand
+!incombat
+nogcd
+
+//Food
+use:food
+selfhp<60
+!incombat
+breakoncombat
+breakonfullhp
+channelingtime:16000
+nostand
+
+//Drink
+use:drink
+mana<60
+!incombat
+breakoncombat
+breakonfullmana
+channelingtime:16000
+nostand
+
+//Rest
+cast:25
+selfhp<60
+channelingtime:15000
+breakoncombat
+breakonfullhp
+afterloot
+!incombat
+
+
+
+//##############################################
+//Scrolls
+//##############################################
+
+//Stamina Scroll
+use:stamina scroll
+!incombat
+
+//Intellect Scroll
+use:intellect scroll
+!incombat
+
+//Spirit Scroll
+use:spirit scroll
+!incombat
+
+
+
+//##############################################
+//Attack
+//##############################################
+
+//Wand Attack
+castspell:5019
+distance<30
+mana<10
+!wandcasting
+!autoattacking
+
+//Auto Attack
+castspell:6603
+distance<5
+mana<10
+!wandcasting
+!autoattacking
+nogcd
