@@ -227,7 +227,7 @@ incombat
 castspell:75
 distance>5
 distance<25
-!autoattacking
+!wandcasting
 nogcd
 
 //Auto Attack
