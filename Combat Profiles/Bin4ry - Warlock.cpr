@@ -9,7 +9,23 @@ gcd:1500
 //Buffs & Shields
 //##############################################
 
+//Demon Skin
+castspell:687;696
+selfbuff!687;696
+level<20
+!incombat
 
+//Demon Armor
+castspell:706;1086;11733;11734;11735
+selfbuff!706;1086;11733;11734;11735
+level>19
+!incombat
+
+//Life Tap
+castspell:1454;1455;1456;11687;11688;11689
+selfhp>90
+mana<10
+level>5
 
 
 
@@ -102,8 +118,76 @@ use:spirit scroll
 
 
 //##############################################
+//Pet Handling
+//##############################################
+
+//Summon Imp
+castspell:688
+channelingtime:11000
+!petactive
+mana>30
+level<10
+!incombat
+
+//Summon Imp - (No Soulstones)
+castspell:688
+channelingtime:11000
+haveitem:6265<1
+!petactive
+mana>30
+level>10
+!incombat
+
+//Summon Voidwalker
+castspell:697
+channelingtime:11000
+haveitem:6265>0
+!petactive
+mana>30
+level>9
+!incombat
+
+//Consume Shadows - Out of Combat
+castspell:17767;17850;17851;17852;17853;17854
+channelingtime:10000
+breakoncombat
+petactive
+pethealth<60
+petmana>35
+cooldown:15000
+level>17
+!incombat
+
+//Pet Rest
+cast:25
+channelingtime:10000
+petactive
+pethealth<60
+breakoncombat
+!incombat
+
+//Health Funnel
+castspell:755;3698;3699;3700;11693;11694;11695
+channelingtime:10000
+breakoncombat
+pethealth<40
+selfhp>40
+petactive
+level>11
+
+
+
+//##############################################
 //Attack
 //##############################################
+
+//Corruption
+castspell:172;6222;6223;7648;11671;11672;25311
+targetbuff!172;6222;6223;7648;11671;11672;25311
+mana>10
+distance<30
+targethp>20
+level>3
 
 //Wand Attack
 castspell:5019
