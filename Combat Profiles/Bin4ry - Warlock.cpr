@@ -21,6 +21,13 @@ selfbuff!706;1086;11733;11734;11735
 level>19
 !incombat
 
+//Soul Link
+castspell:19028
+selfbuff!19028
+petactive
+level>39
+!incombat
+
 //Life Tap
 castspell:1454;1455;1456;11687;11688;11689
 selfhp>90
@@ -173,6 +180,7 @@ breakoncombat
 pethealth<40
 selfhp>40
 petactive
+mana>10
 level>11
 
 
@@ -181,13 +189,85 @@ level>11
 //Attack
 //##############################################
 
+//Drain Soul
+castspell:1120;8288;8289;11675
+channelingtime:10000
+haveitem:6265<5
+breakonkill
+targethp<20
+distance<30
+mana>10
+level>9
+incombat
+
+//Drain Life
+castspell:689;699;709;7651;11699;11700
+channelingtime:5000
+distance<20
+breakonkill
+selfhp<40
+mana>10
+level>13
+incombat
+
+//Howl of Terror
+castspell:5484;17928
+cooldown:40000
+combatcount>1
+mana>10
+level>39
+incombat
+
+//Shadowbolt
+castspell:686;695;705;1088;1106;7641;11659;11660;11661;25307
+distance<30
+mana>10
+
+//Immolate
+castspell:348;707;1094;2941;11665;11667;11668;25309
+targetbuff!348;707;1094;2941;11665;11667;11668;25309
+cooldown:3500
+distance<30
+targethp>15
+mana>10
+incombat
+
 //Corruption
 castspell:172;6222;6223;7648;11671;11672;25311
 targetbuff!172;6222;6223;7648;11671;11672;25311
-mana>10
 distance<30
-targethp>20
+targethp>10
+mana>10
 level>3
+incombat
+
+//Curse of Agony
+castspell:980;1014;6217;11711;11712;11713
+targetbuff!980;1014;6217;11711;11712;11713
+distance<30
+targethp>10
+mana>10
+level>7
+incombat
+
+//Deathcoil
+castspell:6789;17925;17926
+cooldown:120000
+distance<30
+selfhp<50
+mana>20
+level>41
+incombat
+
+//Soul Fire
+castspell:6353;17924
+channelingtime:6000
+cooldown:60000
+haveitem:6265>0
+targethp>70
+mana>30
+level>47
+incombat
 
 //Wand Attack
 castspell:5019
