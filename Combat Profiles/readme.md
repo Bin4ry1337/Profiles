@@ -1,8 +1,8 @@
 ##Combat Profiles
 | Class    | Version | Note                           |
 | -------- | ------- |--------------------------------|
-| Paladin  | Beta    | There is a known issue where you sometimes dont use seals after seal of the crusader (Fixing it very soon)    |
-| Mage     | Beta    |                                |
+| Paladin  | Beta    |  Stable and well tested        |
+| Mage     | Beta    |  Stable and well tested        |
 | Priest   | Beta    |                                |
 | Rogue    | Beta    |                                |
 | Warrior  | Beta    |                                |
