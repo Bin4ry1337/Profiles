@@ -1,7 +1,7 @@
 ##Combat Profiles
 | Class    | Version | Note                           |
 | -------- | ------- |--------------------------------|
-| Paladin  | Beta    |                                |
+| Paladin  | Beta    | There is a known issue where you sometimes dont use seals after seal of the crusader (Fixing it very soon)    |
 | Mage     | Beta    |                                |
 | Priest   | Beta    |                                |
 | Rogue    | Beta    |                                |
@@ -9,7 +9,7 @@
 | Druid    | Beta    |                                |
 | Hunter   | Beta    |                                |
 | Shaman   | Beta    |                                |
-| Warlock  | Beta    | This Profile is in Early Beta  |
+| Warlock  | Beta    | Needs more testing, if your interested? contact me on the forums       |
 
 
 ###How To Use
