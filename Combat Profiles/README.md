@@ -1,8 +1,8 @@
 ##Combat Profiles
 | Class    | Version | Note                           |
 | -------- | ------- |--------------------------------|
-| Paladin  | Beta    |  Stable and well tested        |
-| Mage     | Beta    |  Stable and well tested        |
+| Paladin  | Stable    |  Stable and well tested        |
+| Mage     | Stable    |  Stable and well tested        |
 | Priest   | Beta    |                                |
 | Rogue    | Beta    |                                |
 | Warrior  | Beta    |                                |
