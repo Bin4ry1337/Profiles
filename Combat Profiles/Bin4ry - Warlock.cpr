@@ -132,7 +132,7 @@ use:spirit scroll
 castspell:688
 channelingtime:11000
 !petactive
-mana>30
+mana>40
 level<10
 !incombat
 
@@ -141,7 +141,7 @@ castspell:688
 channelingtime:11000
 haveitem:6265<1
 !petactive
-mana>30
+mana>40
 level>10
 !incombat
 
@@ -150,7 +150,7 @@ castspell:697
 channelingtime:11000
 haveitem:6265>0
 !petactive
-mana>30
+mana>40
 level>9
 !incombat
 
@@ -159,7 +159,7 @@ castspell:17767;17850;17851;17852;17853;17854
 channelingtime:10000
 breakoncombat
 petactive
-pethealth<60
+pethealth<75
 petmana>35
 cooldown:15000
 level>17
