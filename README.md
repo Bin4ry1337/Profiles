@@ -1,6 +1,6 @@
 ##Bin4ry's Profiles
 
-All of the profiles were made from scratch by me(Bin4ry), but a lot of people have been contributing with help and solutions throughout the whole process.
+All of the profiles were made from scratch by me(Bin4ry), but a lot of people has been contributing with help and solutions throughout the whole process.
 
 
 ###Credits
