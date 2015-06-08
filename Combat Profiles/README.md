@@ -1,13 +1,13 @@
 ##Combat Profiles
 | Class    | Version | Note                           |
 | -------- | ------- |--------------------------------|
-| Paladin  | Stable    |  Stable and well tested        |
-| Mage     | Stable    |  Stable and well tested        |
+| Paladin  | Stable  |    Stable and well tested      |
+| Mage     | Stable  |    Stable and well tested      |
 | Priest   | Beta    |                                |
 | Rogue    | Beta    |                                |
-| Warrior  | Beta    |                                |
+| Warrior  | Beta    |  Stable                        |
 | Druid    | Beta    |                                |
-| Hunter   | Beta    |                                |
+| Hunter   | Beta    |  Stable                        |
 | Shaman   | Beta    |                                |
 | Warlock  | Beta    | Needs more testing, if your interested? contact me on the forums       |
 
