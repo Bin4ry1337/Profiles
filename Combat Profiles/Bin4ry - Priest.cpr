@@ -147,6 +147,14 @@ use:spirit scroll
 //Attack
 //##############################################
 
+//Wand Attack - Low on Mana
+castspell:5019
+distance<30
+targethp<25
+mana<15
+!wandcasting
+!autoattacking
+
 //Mind Blast
 castspell:8092;8102;8103;8104;8105;8106;10945;10946;10947
 targethp<15
