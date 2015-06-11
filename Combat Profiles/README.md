@@ -3,11 +3,11 @@
 | -------- | ------- |--------------------------------|
 | Paladin  | Stable  |  Stable and well tested        |
 | Mage     | Stable  |  Stable and well tested        |
-| Priest   | Beta    |  Stable                        |
-| Rogue    | Beta    |  Stable                        |
-| Warrior  | Beta    |  Stable                        |
+| Priest   | Stable  |  Stable                        |
+| Rogue    | Stable  |  Stable                        |
+| Warrior  | Stable  |  Stable                        |
 | Druid    | Beta    |                                |
-| Hunter   | Beta    |  Stable                        |
+| Hunter   | Stable  |  Stable                        |
 | Shaman   | Beta    |                                |
 | Warlock  | Beta    | Needs more testing, if your interested? contact me on the forums       |
 
