@@ -316,12 +316,21 @@ use:spirit scroll
 //Attack Spells
 //##############################################
 
+//Counterspell
+castspell:2139
+distance<30
+mana>10
+enemycasting
+level>23
+incombat
+
 //Scorch
 castspell:2948;8444;8445;8446;10205;10206;10207
 targethp<15
 distance<30
-mana<25
+mana<15
 level>21
+incombat
 
 //Fireball
 castspell:133;143;145;3140;8400;8401;8402;10148;10149;10150;10151;25306
