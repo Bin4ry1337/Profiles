@@ -6,7 +6,7 @@
 | Priest   | Stable  |  Stable                        |
 | Rogue    | Stable  |  Stable                        |
 | Warrior  | Stable  |  Stable                        |
-| Druid    | Beta    |  Stable                        |
+| Druid    | Stable  |  Stable                        |
 | Hunter   | Stable  |  Stable                        |
 | Shaman   | Beta    |                                |
 | Warlock  | Beta    | Needs more testing, if your interested? contact me on the forums       |
