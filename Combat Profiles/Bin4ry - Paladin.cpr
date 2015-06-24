@@ -61,12 +61,14 @@ level>15
 //Blessing of Might
 castspell:19740;19834;19835;19836;19837;19838;25291
 selfbuff!19740;19834;19835;19836;19837;19838;25291
+afterloot
 mana>50
 level>3
 
 //Blessing of Wisdom
 castspell:19742
 selfbuff!19742
+afterloot
 mana<20
 level>13
 
