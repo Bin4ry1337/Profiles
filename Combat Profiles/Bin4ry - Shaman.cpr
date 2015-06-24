@@ -13,17 +13,21 @@ gcd:1500
 //Lightning Shield
 castspell:324;325;905;945;8134;10431;10432
 selfbuff!324;325;905;945;8134;10431;10432
+distance<40
+afterloot
 level>7
 !incombat
 
 //Rockbiter, Flametongue, Frostbrand, Windfury
 castspell:8017;8018;8024;8027;8033;8038;8232;8235;10486;16362
 !mainhandbuffed
+afterloot
 mana>10
 
 //Rockbiter, Flametongue, Frostbrand, Windfury
 castspell:8017;8018;8024;8027;8033;8038;8232;8235;10486;16362
 !offhandbuffed
+afterloot
 mana>10
 
 
