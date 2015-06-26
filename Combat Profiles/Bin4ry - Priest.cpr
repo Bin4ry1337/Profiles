@@ -150,8 +150,8 @@ use:spirit scroll
 //Wand Attack - Low on Mana
 castspell:5019
 distance<30
-targethp<25
-mana<15
+targethp<30
+mana<10
 !wandcasting
 !autoattacking
 
