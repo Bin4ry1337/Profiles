@@ -155,22 +155,17 @@ mana<15
 !wandcasting
 !autoattacking
 
-//Mind Blast
-castspell:8092;8102;8103;8104;8105;8106;10945;10946;10947
-targethp<15
-mana>10
-distance<30
-level>9
-
 //Holy Fire
 castspell:14914;15262;15263;15264;15265;15266;15267;15261
 mana>10
+targethp>60
 distance<30
 level>19
 
 //Shadow Word: Pain
 castspell:589;594;970;992;2767;10892;10893;10894
 targetbuff!589;594;970;992;2767;10892;10893;10894
+targethp>20
 mana>10
 distance<30
 level>3
@@ -179,6 +174,14 @@ level>3
 castspell:585;591;598;984;1004;6060;10933;10934
 mana>10
 distance<30
+
+//Mind Blast
+castspell:8092;8102;8103;8104;8105;8106;10945;10946;10947
+targethp<20
+mana>10
+distance<30
+level>9
+incombat
 
 //Lesser Heal
 castspell:2050;2052;2053
