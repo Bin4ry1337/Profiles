@@ -8,6 +8,7 @@ All of the profiles were made from scratch by me(Bin4ry), but a lot of people ha
 |------------|--------------------------------------------------|
 | Bin4ry     | Creating all the Profiles                        |
 | L0cTus     | Fixing bugs and bringing some new solutions      |
+| Skitty     | Beta testing and profile optimization            |
 | Ceen       | Found a fix for bot not looting sometimes        |
 | Fox2       | Beta testing and bug reporting                   |
 | Hyperspeed | Beta testing and bug reporting                   |
