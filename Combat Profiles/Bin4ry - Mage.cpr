@@ -336,20 +336,8 @@ incombat
 castspell:133;143;145;3140;8400;8401;8402;10148;10149;10150;10151;25306
 distance<35
 mana>25
-level<4
-
-//Fireball
-castspell:133;143;145;3140;8400;8401;8402;10148;10149;10150;10151;25306
-distance<35
-mana>25
 level>3
 castonce
-
-//Frostbolt
-castspell:116;205;837;7322;8406;8407;8407;8408;10179;10180;1081
-distance<30
-mana>25
-level>3
 
 //Fire Blast
 castspell:2136
@@ -411,6 +399,18 @@ breakonfullmana
 cooldown:480000
 triggeredby:1
 incombat
+
+//Fireball
+castspell:133;143;145;3140;8400;8401;8402;10148;10149;10150;10151;25306
+distance<35
+mana>25
+level<4
+
+//Frostbolt
+castspell:116;205;837;7322;8406;8407;8407;8408;10179;10180;1081
+distance<30
+mana>25
+level>3
 
 //Wand Attack
 castspell:5019
