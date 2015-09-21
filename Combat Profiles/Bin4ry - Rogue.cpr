@@ -14,7 +14,7 @@ castspell:1856;1857
 selfhp<10
 targethp>20
 haveitem:5140>0
-backpedal:2000
+backpedal:5000
 level>21
 incombat
 
@@ -79,6 +79,14 @@ incombat
 //Food and Drinks
 //##############################################
 
+//Stealth Eat
+castspell:1784;1785;1786;1787
+selfbuff!1784;1785;1786;1787
+selfhp<60
+cooldown:10000
+triggers:9
+!incombat
+
 //Food
 use:food
 selfhp<60
@@ -86,6 +94,7 @@ breakoncombat
 breakonfullhp
 channelingtime:16000
 nostand
+triggeredby:9
 !incombat
 
 //Rest
