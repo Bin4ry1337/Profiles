@@ -15,6 +15,7 @@ selfhp<10
 targethp>20
 haveitem:5140>0
 backpedal:5000
+channelingtime:8000
 level>21
 incombat
 
