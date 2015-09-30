@@ -40,6 +40,37 @@ level>5
 //Potions
 //##############################################
 
+//Lesser Healthstone (12+)
+cast:19
+selfhp<25
+haveitem:5511>0
+level>11
+level<24
+incombat
+
+//Healthstone (24+)
+cast:19
+selfhp<25
+haveitem:5509>0
+level>23
+level<36
+incombat
+
+//Greater Healthstone (36+)
+cast:19
+selfhp<25
+haveitem:5510>0
+level>35
+level<48
+incombat
+
+//Major Healthstone (48+)
+cast:19
+selfhp<25
+haveitem:9421>0
+level>47
+incombat
+
 //Health Potion
 use:health potion
 selfhp<20
