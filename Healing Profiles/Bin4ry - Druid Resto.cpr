@@ -1,0 +1,108 @@
+//Class:   Druid
+//Spec:    Restoration
+//Talents: http://db.vanillagaming.org/?talent#0x0VMZZxEcoeqVo
+//Weapons: Staff
+
+gcd:1500
+
+//##############################################
+// Buffs & Shields
+//##############################################
+
+//Mark of the Wild
+castspell:1126;5232;6756;5234;8907;9884;9885
+targetbuff!1126;5232;6756;5234;8907;9884;9885;5487;768;9634
+
+//Thorns
+castspell:467;782;1075;8914;9756;9910
+targetbuff!467;782;1075;8914;9756;9910;5487;768;9634
+
+
+
+//##############################################
+// Potions
+//##############################################
+
+//Health Potion
+use:health potion
+selfhp<20
+incombat
+
+//Mana Potion
+use:mana potion
+mana<20
+incombat
+
+
+
+//##############################################
+// Food and Drinks
+//##############################################
+
+//Eat and Drink
+use:food
+selfhp<60
+mana<60
+breakoncombat
+breakonfullhp
+cooldown:1500;1
+triggers:5
+!incombat
+nogcd
+
+//Eat and Drink
+use:drink
+channelingtime:16000
+breakoncombat
+breakonfullmana
+triggeredby:5
+nostand
+!incombat
+nogcd
+
+//Food
+use:food
+selfhp<60
+!incombat
+breakoncombat
+breakonfullhp
+channelingtime:12000
+nostand
+
+//Drink
+use:drink
+mana<60
+!incombat
+breakoncombat
+breakonfullmana
+channelingtime:12000
+nostand
+
+//Rest
+cast:25
+selfhp<60
+channelingtime:15000
+breakoncombat
+breakonfullhp
+afterloot
+!incombat
+
+
+
+//##############################################
+// Spells
+//##############################################
+
+//Healing Touch
+castspell:5185;5186;5187;5188;5189;6778;8903;9758;9888;9889;25297
+targetbuff!5487;768;9634
+targethp<40
+mana>20
+
+//Rejuvenation
+castspell:774;1058;1430;2090;2091;3627;8910;9839;9840;9841;25299
+targetbuff!774;1058;1430;2090;2091;3627;8910;9839;9840;9841;25299;5487;768;9634
+targethp<90
+distance<40
+mana>60
+level>3
