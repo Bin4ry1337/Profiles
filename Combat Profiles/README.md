@@ -8,7 +8,7 @@
 | Warrior  | Stable  |  Stable                        |
 | Druid    | Stable  |  Stable                        |
 | Hunter   | Stable  |  Stable                        |
-| Shaman   | Beta    |                                |
+| Shaman   | Beta    | Needs more testing, if your interested? contact me on the forums       |
 | Warlock  | Beta    | Needs more testing, if your interested? contact me on the forums       |
 
 
