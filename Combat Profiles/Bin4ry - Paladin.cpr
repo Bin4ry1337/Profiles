@@ -153,7 +153,7 @@ nostand
 //Rest
 cast:25
 selfhp<60
-mana<40
+mana<30
 channelingtime:15000
 breakoncombat
 breakonfullhp
@@ -242,7 +242,7 @@ incombat
 castspell:20271
 selfbuff=21084;20287;20288;20289;20290;20291;20292;20293;21082;20162;20305;20306;20307;20308;20375;20915;20918;20919;20920
 cooldown:10000
-distance<8
+distance<11
 mana>10
 level>3
 incombat
@@ -253,3 +253,9 @@ castspell:6603
 distance<5
 !autoattacking
 nogcd
+
+//Backpedal - Not attacking bugfix
+cast:35
+backpedal:1500
+cooldown:20000
+incombat
