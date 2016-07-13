@@ -259,3 +259,10 @@ cast:35
 backpedal:1500
 cooldown:20000
 incombat
+
+//Move into range if mob walks away
+cast:40
+distance<3
+cooldown:500
+nogcd
+meleepullcount>0

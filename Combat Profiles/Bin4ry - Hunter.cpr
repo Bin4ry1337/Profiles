@@ -249,10 +249,3 @@ castspell:6603
 distance<5
 !autoattacking
 nogcd
-
-//Move into range if mob walks away
-cast:20
-distance<3
-cooldown:7000
-nogcd
-meleepullcount>0

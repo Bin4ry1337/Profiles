@@ -62,6 +62,16 @@ selfbuff!604;8450;8451;10173;10174
 level>12
 !incombat
 
+//Evocation
+castspell:12051
+channelingtime:8000
+breakonfullmana
+cooldown:480000
+triggeredby:1
+selfhp>40
+mana<10
+incombat
+
 
 
 //##############################################
@@ -390,14 +400,6 @@ castspell:120;8492;10159;10160;10161
 mana>30
 distance<5
 level>25
-incombat
-
-//Evocation
-castspell:12051
-channelingtime:8000
-breakonfullmana
-cooldown:480000
-triggeredby:1
 incombat
 
 //Fireball

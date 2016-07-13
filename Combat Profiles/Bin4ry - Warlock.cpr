@@ -9,16 +9,16 @@ gcd:1500
 //Buffs & Shields
 //##############################################
 
-//Demon Skin
-castspell:687;696
-selfbuff!687;696
-level<20
-!incombat
-
 //Demon Armor
 castspell:706;1086;11733;11734;11735
 selfbuff!706;1086;11733;11734;11735
 level>19
+!incombat
+
+//Demon Skin
+castspell:687;696
+selfbuff!687;696;706;1086;11733;11734;11735
+level<20
 !incombat
 
 //Soul Link
@@ -167,15 +167,6 @@ mana>40
 level<10
 !incombat
 
-//Summon Imp - (No Soulstones)
-castspell:688
-channelingtime:11000
-haveitem:6265<1
-!petactive
-mana>40
-level>10
-!incombat
-
 //Summon Voidwalker
 castspell:697
 channelingtime:11000
@@ -183,6 +174,15 @@ haveitem:6265>0
 !petactive
 mana>40
 level>9
+!incombat
+
+//Summon Imp - (No Soulstones)
+castspell:688
+channelingtime:11000
+haveitem:6265<1
+!petactive
+mana>40
+level>10
 !incombat
 
 //Consume Shadows - Out of Combat
@@ -249,18 +249,22 @@ mana>10
 level>39
 incombat
 
-//Shadowbolt
-castspell:686;695;705;1088;1106;7641;11659;11660;11661;25307
-distance<30
-mana>10
-
 //Immolate
 castspell:348;707;1094;2941;11665;11667;11668;25309
 targetbuff!348;707;1094;2941;11665;11667;11668;25309
 cooldown:3500
 distance<30
+castonce
 targethp>15
 mana>10
+
+//Curse of Agony
+castspell:980;1014;6217;11711;11712;11713
+targetbuff!980;1014;6217;11711;11712;11713
+distance<30
+targethp>10
+mana>10
+level>7
 incombat
 
 //Corruption
@@ -272,13 +276,10 @@ mana>10
 level>3
 incombat
 
-//Curse of Agony
-castspell:980;1014;6217;11711;11712;11713
-targetbuff!980;1014;6217;11711;11712;11713
+//Shadowbolt
+castspell:686;695;705;1088;1106;7641;11659;11660;11661;25307
 distance<30
-targethp>10
 mana>10
-level>7
 incombat
 
 //Deathcoil
