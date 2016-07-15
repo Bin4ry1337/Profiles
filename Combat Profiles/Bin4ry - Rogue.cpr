@@ -172,3 +172,9 @@ castspell:6603
 distance<5
 !autoattacking
 nogcd
+
+//Move into melee range
+cast:40
+distance<4
+cooldown:5000
+nogcd
