@@ -49,14 +49,15 @@ selfhp<80
 mana>10
 !incombat
 
-//Devotion Aura
-castspell:465;10290;643;10291;1032;10292;10293
-selfbuff!465;10290;643;10291;1032;10292;10293;7294;10298;10299;10300;10301
-
 //Retribution Aura
 castspell:7294;10298;10299;10300;10301
 selfbuff!465;10290;643;10291;1032;10292;10293;7294;10298;10299;10300;10301
-level>15
+level>14
+
+//Devotion Aura
+castspell:465;10290;643;10291;1032;10292;10293
+selfbuff!465;10290;643;10291;1032;10292;10293;7294;10298;10299;10300;10301
+level<15
 
 //Blessing of Might
 castspell:19740;19834;19835;19836;19837;19838;25291
@@ -260,9 +261,8 @@ backpedal:1500
 cooldown:20000
 incombat
 
-//Move into range if mob walks away
+//Move into melee range
 cast:40
-distance<3
-cooldown:500
+distance<4
+cooldown:5000
 nogcd
-meleepullcount>0
