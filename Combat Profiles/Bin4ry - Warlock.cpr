@@ -213,6 +213,7 @@ selfhp>40
 petactive
 mana>10
 level>11
+incombat
 
 
 
@@ -249,6 +250,12 @@ mana>10
 level>39
 incombat
 
+//Shadowbolt
+castspell:686;695;705;1088;1106;7641;11659;11660;11661;25307
+distance<30
+mana>10
+level<10
+
 //Immolate
 castspell:348;707;1094;2941;11665;11667;11668;25309
 targetbuff!348;707;1094;2941;11665;11667;11668;25309
@@ -257,6 +264,14 @@ distance<30
 castonce
 targethp>15
 mana>10
+level>3
+
+//Shadowbolt
+castspell:686;695;705;1088;1106;7641;11659;11660;11661;25307
+distance<30
+mana>10
+level>9
+incombat
 
 //Curse of Agony
 castspell:980;1014;6217;11711;11712;11713

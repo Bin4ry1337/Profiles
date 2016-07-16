@@ -48,16 +48,16 @@ incombat
 //Pet Handling
 //##############################################
 
-//Call Pet
-castspell:883
-!petactive
-petalive
-level>9
-
 //Revive Pet
 castspell:982
 !petalive
 !incombat
+level>9
+
+//Call Pet
+castspell:883
+!petactive
+petalive
 level>9
 
 //Mend Pet
@@ -184,14 +184,6 @@ distance<30
 distance>7
 level>5
 
-//Serpent Sting
-castspell:1978;13549;13550;13551;13552;13553;13554;13555;25295
-targetbuff!1978;13549;13550;13551;13552;13553;13554;13555;25295
-mana>10
-distance>5
-distance<30
-level>3
-
 //Concussive Shot
 castspell:5116
 targetbuff!5116
@@ -200,6 +192,14 @@ mana>10
 distance>5
 distance<30
 level>7
+
+//Serpent Sting
+castspell:1978;13549;13550;13551;13552;13553;13554;13555;25295
+targetbuff!1978;13549;13550;13551;13552;13553;13554;13555;25295
+mana>10
+distance>5
+distance<30
+level>3
 
 //Arcane Shot
 castspell:3044;14281;14282;14283;14284;14285;14286;14287
