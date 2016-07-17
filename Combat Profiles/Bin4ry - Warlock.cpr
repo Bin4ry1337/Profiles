@@ -30,8 +30,8 @@ level>39
 
 //Life Tap
 castspell:1454;1455;1456;11687;11688;11689
-selfhp>90
-mana<10
+selfhp>80
+mana<30
 level>5
 
 
@@ -127,7 +127,7 @@ channelingtime:16000
 nostand
 
 //Rest
-cast:25
+cast:35
 selfhp<60
 channelingtime:15000
 breakoncombat
@@ -266,13 +266,6 @@ targethp>15
 mana>10
 level>3
 
-//Shadowbolt
-castspell:686;695;705;1088;1106;7641;11659;11660;11661;25307
-distance<30
-mana>10
-level>9
-incombat
-
 //Curse of Agony
 castspell:980;1014;6217;11711;11712;11713
 targetbuff!980;1014;6217;11711;11712;11713
@@ -295,6 +288,7 @@ incombat
 castspell:686;695;705;1088;1106;7641;11659;11660;11661;25307
 distance<30
 mana>10
+level>9
 incombat
 
 //Deathcoil

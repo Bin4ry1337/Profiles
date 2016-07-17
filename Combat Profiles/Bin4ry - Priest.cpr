@@ -118,7 +118,7 @@ channelingtime:16000
 nostand
 
 //Rest
-cast:25
+cast:35
 selfhp<60
 mana<40
 channelingtime:15000

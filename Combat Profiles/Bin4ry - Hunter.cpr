@@ -48,16 +48,18 @@ incombat
 //Pet Handling
 //##############################################
 
-//Revive Pet
-castspell:982
-!petalive
-!incombat
-level>9
-
 //Call Pet
 castspell:883
 !petactive
 petalive
+triggers:3
+level>9
+
+//Revive Pet
+castspell:982
+!petalive
+!incombat
+triggeredby:3
 level>9
 
 //Mend Pet
@@ -140,7 +142,7 @@ channelingtime:12000
 nostand
 
 //Rest
-cast:29
+cast:35
 selfhp<60
 breakonfullhp
 channelingtime:15000
@@ -149,7 +151,7 @@ afterloot
 !incombat
 
 //Rest - Pet Resting
-cast:29
+cast:35
 pethealth<60
 breakonfullhp
 channelingtime:15000

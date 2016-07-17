@@ -99,7 +99,7 @@ triggeredby:9
 !incombat
 
 //Rest
-cast:25
+cast:35
 selfhp<60
 channelingtime:15000
 breakoncombat
