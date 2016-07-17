@@ -1,0 +1,167 @@
+//Class:   Warrior
+//Spec:    Arms
+//Talents: http://db.vanillagaming.org/?talent#LiG0bAboxzVVhh0L
+//Weapons: Two-Handed Sword
+
+gcd:1500
+
+//##############################################
+//Buffs & Shields
+//##############################################
+
+//Battle Stance
+castspell:2457
+selfbuff!2457
+
+//Battle Shout
+castspell:6673;5242;6192;11549;11550;11551;25289
+selfbuff!6673;5242;6192;11549;11550;11551;25289
+rage>9
+
+//Bloodrage
+castspell:2687
+cooldown:60000
+selfhp>30
+level>9
+incombat
+
+
+
+//##############################################
+//Potions
+//##############################################
+
+//Health Potion
+use:health potion
+selfhp<20
+incombat
+
+
+
+//##############################################
+//Food and Drinks
+//##############################################
+
+//Food
+use:food
+selfhp<60
+breakoncombat
+breakonfullhp
+channelingtime:16000
+nostand
+!incombat
+
+//Rest
+cast:35
+selfhp<60
+channelingtime:15000
+breakoncombat
+breakonfullhp
+afterloot
+!incombat
+
+
+
+//##############################################
+//Scrolls
+//##############################################
+
+//Stamina Scroll
+use:stamina scroll
+!incombat
+
+//Agility Scroll
+use:agility scroll
+!incombat
+
+//Strength Scroll
+use:strength scroll
+!incombat
+
+
+
+//##############################################
+//Attack
+//##############################################
+
+//Sweeping Strikes - Multiple Targets
+castspell:12292
+distance<5
+rage>29
+combatcount>1
+level>29
+incombat
+
+//Cleave - Multiple Targets
+castspell:845;7369;11608;11609;20569
+distance<5
+rage>19
+combatcount>1
+level>19
+incombat
+
+//Charge
+castspell:100;6178;11578
+distance<25
+level>3
+
+//Heroic Strike
+castspell:78;284;285;1608;11564;11565;11566;11567;25286
+distance<5
+level<30
+rage>14
+nogcd
+
+//Slam
+castspell:1464;8820;11604;11605
+distance<5
+level>29
+rage>14
+channelingtime:1500
+nogcd
+incombat
+
+//Mortal Strike
+castspell:12294;21551;21552;21553
+distance<5
+level>39
+rage>29
+incombat
+
+//Whirlwind
+castspell:1680
+distance<5
+level>35
+rage>24
+incombat
+
+//Rend
+castspell:772;6546;6547;6548;11572;11573;11574
+targetbuff!772;6546;6547;6548;11572;11573;11574
+targethp>50
+distance<5
+rage>9
+level>3
+incombat
+
+//Auto Attack
+castspell:6603
+distance<5
+!autoattacking
+nogcd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
