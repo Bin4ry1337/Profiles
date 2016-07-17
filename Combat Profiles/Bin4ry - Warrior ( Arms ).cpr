@@ -25,6 +25,14 @@ selfhp>30
 level>9
 incombat
 
+//Retaliation
+castspell:20230
+distance<10
+cooldown:300000
+selfhp<20
+level>19
+incombat
+
 
 
 //##############################################
@@ -53,7 +61,8 @@ nostand
 
 //Rest
 cast:35
-selfhp<60
+selfhp<80
+selfhp>60
 channelingtime:15000
 breakoncombat
 breakonfullhp
@@ -84,6 +93,12 @@ use:strength scroll
 //Attack
 //##############################################
 
+//Auto Attack
+castspell:6603
+distance<5
+!autoattacking
+nogcd
+
 //Sweeping Strikes - Multiple Targets
 castspell:12292
 distance<5
@@ -100,16 +115,28 @@ combatcount>1
 level>19
 incombat
 
+//Execute
+castspell:5308;20658;20660;20661;20662
+distance<5
+targethp<20
+rage>14
+level>23
+incombat
+
 //Charge
 castspell:100;6178;11578
 distance<25
+cooldown:15000
 level>3
+castonce
+!incombat
 
 //Heroic Strike
 castspell:78;284;285;1608;11564;11565;11566;11567;25286
 distance<5
 level<30
 rage>14
+autoattacking
 nogcd
 
 //Slam
@@ -118,6 +145,7 @@ distance<5
 level>29
 rage>14
 channelingtime:1500
+cooldown:5000
 nogcd
 incombat
 
@@ -128,13 +156,6 @@ level>39
 rage>29
 incombat
 
-//Whirlwind
-castspell:1680
-distance<5
-level>35
-rage>24
-incombat
-
 //Rend
 castspell:772;6546;6547;6548;11572;11573;11574
 targetbuff!772;6546;6547;6548;11572;11573;11574
@@ -143,12 +164,6 @@ distance<5
 rage>9
 level>3
 incombat
-
-//Auto Attack
-castspell:6603
-distance<5
-!autoattacking
-nogcd
 
 
 
