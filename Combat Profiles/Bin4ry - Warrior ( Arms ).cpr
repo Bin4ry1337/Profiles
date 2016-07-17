@@ -56,13 +56,13 @@ selfhp<60
 breakoncombat
 breakonfullhp
 channelingtime:16000
+afterloot
 nostand
 !incombat
 
 //Rest
 cast:35
-selfhp<80
-selfhp>60
+selfhp<60
 channelingtime:15000
 breakoncombat
 breakonfullhp
